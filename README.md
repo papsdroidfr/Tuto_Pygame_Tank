@@ -1,5 +1,4 @@
-# Tuto_Pygame_Tank
-Tutoriels pas à pas de création de jeux avec Pygame
+# Tutoriel création de jeux 2D en Python avec Pygame
 
 voir les explications sur https://www.papsdroid.fr/post/jeux-pygame
 
