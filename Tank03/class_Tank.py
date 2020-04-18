@@ -16,14 +16,13 @@ class Tank():
     classe décrivant un tank
     """
 
-    def __init__(self, terrain, name, l_img_name, l_detla_pos, human=False,
+    def __init__(self, terrain, name, l_img_name, human=False,
                  pos=(0,0), nb_rotates=16, l_rotation=[0,0,0]):
         """
         constructeur de la classe
             terrain    : le terrain sur lequel évolue le tank
             name       : nom du tank
             l_img_name : liste des noms des images du tank devant être dessinées dans l'ordre de la liste
-            l_delta_pos: delta (dx,dy) des positions à opérer sur les images du tank
             human: True si joué par un humain, False si joué par la machine
             pos:  position (x,y) du tank (coin haut gauche)
             nb_rotates: nombre de rotations à pré-générer  (rotations par pas de 2pi/nb_rotations)
