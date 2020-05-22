@@ -1,0 +1,55 @@
+# --------------------------------------------------------------------------+
+#CODE| file name                |  commentaire                  |x=infranchisable
+#  VV|                          |                               |v
+#----+--------------------------+-------------------------------+-+
+  |00|Ground_Tile_01_A_64x64.png|fond désert 1                  | |
+  |01|Ground_Tile_02_A_64x64.png|fond désert 2                  | |
+  |h1|Hedge_A_01_64x64.png      |bord haut gauche               |x|
+  |h2|Hedge_A_01b_64x64.png     |bord haut droite               |x|
+  |h3|Hedge_A_01c_64x64.png     |bord bas droite                |x|
+  |h4|Hedge_A_01d_64x64.png     |bord bas gauche                |x|
+  |b1|Hedge_A_02_64x64.png      |bord haut                      |x|
+  |b2|Hedge_A_02b_64x64.png     |bord droite                    |x|
+  |b3|Hedge_A_02c_64x64.png     |bord bas                       |x|
+  |b4|Hedge_A_02d_64x64.png     |bord gauche                    |x|
+  |p1|Platform_64x64.png        |plateforme                     | |
+  |Ph|Block_AH_01_64x64.png     |mur en pierres haut            |x|
+  |Pg|Block_AG_01_64x64.png     |mur en pieres gauche           |x|
+  |Pd|Block_AD_01_64x64.png     |mur en pierres droite          |x|
+  |Pb|Block_AB_01_64x64.png     |mur en pierres bas             |x|
+  |P1|Block_AHG_02_64x64.png    |mur petite pierres Haut Gauche |x|
+  |P2|Block_AHD_02_64x64.png    |mur petite pierres Haut Droite |x|
+  |P3|Block_ABG_02_64x64.png    |mur petite pierres Bas Gauche  |x|
+  |P4|Block_ABD_02_64x64.png    |mur petite pierres Bas Droite  |x|
+  |R1|Rock_01_64x64.png         |rochers 1                      | |
+  |Rm|Rock_01m_64x64.png        |tas de rochers 1               |x|
+  |R2|Rock_02_64x64.png         |rochers 2                      | |
+  |R3|Rock_03_64x64.png         |rochers 3                      | |
+  |T7|Tree_07_64x64.png         |sourche arbre                  | |
+  |T8|Tree_08_64x64.png         |souche arbre                   | |
+  |T9|Tree_09_64x64.png         |souche arbre                   | |
+  |Tm|Tree_07m_64x64.png        |souches multiples avec pierres |x|
+  |T1|Log_64x64.png             |tronc à terre horizontal       |x|
+  |T2|Logb_64x64.png            |tronc à terre vertical         |x|
+  |c1|Cactus_01_64x64.png       |cactus                         | |
+  |c2|Cactus_02_64x64.png       |cactus                         | |
+  |c3|Cactus_03_64x64.png       |cactus                         | |
+  |s1|Decor_Tile_B_01_64x64.png |sol fermeture haut gauche      | |
+  |s2|Decor_Tile_B_02_64x64.png |sol fermeture haut             | |
+  |s3|Decor_Tile_B_03_64x64.png |sol fermeture haut droite      | |
+  |s4|Decor_Tile_B_04_64x64.png |sol fermeture gauche           | |
+  |s5|Decor_Tile_B_05_64x64.png |sol sans aucune fermeture      | |
+  |s6|Decor_Tile_B_06_64x64.png |sol fermeture droite           | |
+  |s7|Decor_Tile_B_07_64x64.png |sol fermeture bas gauche       | |
+  |s8|Decor_Tile_B_08_64x64.png |sol fermeture bas              | |
+  |s9|Decor_Tile_B_09_64x64.png |sol fermeture bas droite       | |
+  |fa|Dot_A_64x64.png           |marqueur rouge                 | |
+  |fb|Dot_B_64x64.png           |marqueur bleu                  | |
+#-----------------------------------------------------------------+
+#
+# ces codes doivent être utilsés dans les fichier .map
+# OCCUPATION: Haut Gauche (HG), Haut Droit (HD), Bas Gauche(BG), Bas Droit (BD)
+# chaque sprite est découpée en 4 quadrants HG,HD,BG,BD
+# une occupation = 'x' signifie que la case est infranchissable à cet endroit.
+#
+#---------------------------------------------------------------------------+
